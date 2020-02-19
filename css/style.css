@@ -1,0 +1,206 @@
+html, body { height: 100% }
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+}
+
+.container {
+    max-width: 1063px;
+    margin: auto;
+}
+
+.navbar-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+    border: 1px solid red;
+}
+
+.logo-navbar {
+    width: 214px;
+    height: 60px;
+}
+
+.text-navbar {
+    height: 23px;
+    color: #007360;
+    font-family: "Museo Sans -900";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 25.57px;
+    text-transform: uppercase;
+}
+
+.slider {
+
+}
+
+.slider-image {
+    display: block;
+    border: 1px solid blue;
+    height: 478px;
+    background-image: url("../images/3-layers.png");
+    background-size: cover;
+}
+
+.prodotti {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid green;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.prodotti-AV {
+    margin: 10px;
+    border: 1px solid aquamarine;
+    flex: 1;
+    min-width: 305px;
+}
+
+.prodotti-IS {
+    margin: 10px;
+    border: 1px solid magenta;
+    flex: 1;
+    min-width: 305px;
+}
+
+.prodotti-ISMD {
+    border: 1px solid deeppink;
+    flex: 1;
+    margin: 10px;
+    min-width: 305px;
+}
+
+.prodotti-title {
+    color: #009179;
+    font-family: "FS Elliot Pro";
+    font-weight: bold;
+    display: flex;
+}
+
+.prodotti-users {
+    color: #3c3c3c;
+    font-family: "Arial - Bold MT";
+    height:  40px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.price-str {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.prodotti-price {
+    margin-bottom: 50px;
+}
+
+.last-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.current-price {
+    color: #00a88e;
+    font-family: "Arial - Bold MT";
+    font-size: 20px;
+}
+
+.prodotti-image {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prodotti-image img {
+}
+
+.bot-border {
+    border-bottom: solid 3px #3a3a3a;
+}
+
+.more-info {
+    height: 34px;
+    color: #ffffff;
+    font-family: "Helvetica";
+    line-height: 34px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.more-str {
+    display: flex;
+}
+
+.more-icon {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-text {
+    font-family: "Arial";
+    margin-bottom: 10px;
+}
+
+.footer {
+    /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+    flex: 0 0 auto;
+    border: 1px solid yellowgreen;
+    padding: 10px;
+}
+
+@font-face {
+font-family: "Museo Sans -900";
+src: url("../fonts/MuseoSans_900.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "FS Elliot Pro";
+    src: url("../fonts/FSElliotProBold.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Arial - Bold MT";
+    src: url("../fonts/Arial-BoldMT.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Arial - MT";
+    src: url("../fonts/Arial-MT.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue LT Com - Md";
+    src: url("../fonts/HelveticaNeueLTCom-Md.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
