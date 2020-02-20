@@ -1,0 +1,21 @@
+.navbar-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 90px;
+}
+
+.logo-navbar {
+    width: 214px;
+    height: 60px;
+}
+
+.text-navbar {
+    min-height: 23px;
+    color: #007360;
+    font-family: "Museo Sans -900";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 25.57px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,6 @@
+.slider-image {
+    display: block;
+    height: 478px;
+    background-image: url("../images/3-layers.png");
+    background-size: cover;
+}

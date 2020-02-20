@@ -1,0 +1,84 @@
+.prodotti {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.prodotti-AV {
+    margin: 10px;
+    flex: 1;
+    min-width: 305px;
+}
+
+.prodotti-IS {
+    margin: 10px;
+    flex: 1;
+    min-width: 305px;
+}
+
+.prodotti-ISMD {
+    flex: 1;
+    margin: 10px;
+    min-width: 305px;
+}
+
+.prodotti-title {
+    color: #009179;
+    font-family: "FS Elliot Pro";
+    font-weight: bold;
+    display: flex;
+}
+
+.prodotti-users {
+    color: #3c3c3c;
+    font-family: "Arial - Bold MT";
+    height:  40px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.price-str {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-family: 'Arial - Bold MT'
+}
+
+.prodotti-price {
+    margin-bottom: 50px;
+}
+
+.last-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.current-price {
+    color: #00a88e;
+    font-family: "Arial - Bold MT";
+    font-size: 20px;
+}
+
+.prodotti-image {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prodotti-image img {
+}
+
+.bot-border-price {
+    border-bottom: solid 3px #3a3a3a;
+}
