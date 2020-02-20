@@ -27,6 +27,7 @@
 .prodotti-title {
     color: #009179;
     font-family: "FS Elliot Pro";
+    margin-left: 20px;
     font-weight: bold;
     display: flex;
 }
@@ -34,10 +35,11 @@
 .prodotti-users {
     color: #3c3c3c;
     font-family: "Arial - Bold MT";
-    height:  40px;
-    font-size: 15px;
+    min-height:  60px;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 15px;
+    margin-left: 20px;
     text-transform: uppercase;
 }
 
